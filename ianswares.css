@@ -29,9 +29,10 @@ img {
 }
 #nav {
   text-align : center;
-  background : #abcdef;
+  background : red;
   padding : 8px;
   border-radius : 10px;
+  height : auto;
   }
 #nav ul {
   text-align : center;
@@ -58,21 +59,21 @@ img {
   border-radius : 10px;
   }
 .nav-column {
-  background : #aaaaaa;
-  float : center;
-  min-width : 10%;
+  float : left;
   max-width : 100%;
   margin-top : 2%;
   border-radius : 10px;
-  background-color : #abcdef;
+  width : auto;
+  height : auto;
   }
 .page-column {
   background : #333333;
-  float : center;
-  min-width : 86%;
+  float : right;
   max-width : 100%;
   margin-top : 2%;
   border-radius : 10px;
+  width : auto;
+  height : auto;
 }
 .page-column img {
   text-align : right;
@@ -92,6 +93,7 @@ img {
     text-align:center;
    padding:5px;
 }
+/*
 #test_definition{
   position: relative;
    visibility: hidden;
@@ -152,3 +154,4 @@ div.def {
    padding:5px;
    color:#ff6500;
 	}
+*/
