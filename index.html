@@ -28,19 +28,19 @@
 <p>
   <img src="ianswares-final-smoothed.png">
 Here at ianswares, we make useful AMIs, we offer an Ubuntu 18.04 AMI with LXDE desktop and VNC pre-installed.
-  <h3>INSTRUCTIONS</h3>
-1. Launch an EC2 instance with this AMI.<br>
-2. Once you have launched your instance, wait for it to finish initializing, then you can move on to the next step.<br>
-3. Now connect to your instance through SSH with this command:<br><br>
-
-ssh -L 5901:localhost:5901 -i "yourkeypair.pem" ubuntu@ec2-xxx-xxx-xxx-xxx.compute-x.amazonaws.com" <br><br>
-
-Don't press enter just yet. Replace the x's with your instance's IP address. Replace the x after "compute-" with the compute number, this will very depending on the region where your instance is. Right click on your instance, then select connect. The compute number and IP address will be displayed.<br><br>
-
-4. Once you have all of the required information specified above, press enter, and it may ask if you're sure you want to connect to the instance. Type yes.<br>
-5. Once connected, type "vncserver" (without the quotes). It will then prompt for a password for vncserver. Make it something you will remember, you will use it to connect to your instance.<br>
-6. While still connected, open up VNC on your local computer, type "localhost:5901" (without the quotes) then hit enter, or press a connect button if applicable.
 </p>
+<h3>INSTRUCTIONS</h3>
+  1. Launch an EC2 instance with this AMI.<br>
+  2. Once you have launched your instance, wait for it to finish initializing, then you can move on to the next step.<br>
+  3. Now connect to your instance through SSH with this command:<br><br>
+
+  ssh -L 5901:localhost:5901 -i "yourkeypair.pem" ubuntu@ec2-xxx-xxx-xxx-xxx.compute-x.amazonaws.com" <br><br>
+
+  Don't press enter just yet. Replace the x's with your instance's IP address. Replace the x after "compute-" with the compute number, this will very depending on the region where your instance is. Right click on your instance, then select connect. The compute number and IP address will be displayed.<br><br>
+
+  4. Once you have all of the required information specified above, press enter, and it may ask if you're sure you want to connect to the instance. Type yes.<br>
+  5. Once connected, type "vncserver" (without the quotes). It will then prompt for a password for vncserver. Make it something you will remember, you will use it to connect to your instance.<br>
+  6. While still connected, open up VNC on your local computer, type "localhost:5901" (without the quotes) then hit enter, or press a connect button if applicable.
 </div> <!--closing page-column-->
 <div class="clear"> </div>
 <div id="footer">
